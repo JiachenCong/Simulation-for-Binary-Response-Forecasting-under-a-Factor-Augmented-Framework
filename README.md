@@ -13,7 +13,7 @@ The three files — simulation_CASE1_DGP_1, simulation_CASE1_DGP_2, and simulati
 
 · simulation_CASE1_DGP_3 implements the case with strong autocorrelation, where the error terms follow an AR(1) process with coefficient 0.7.
 
-In the folder “Code_for_Example_2”, we include the data-generating processes corresponding to Example 2 in the paper, where the error terms follow a logistic distribution with zero mean and unit variance. In this example, we estimate all coefficients using the standard logistic likelihood function.
+In the folder “Code_for_Example_2”, we include the data-generating processes corresponding to Example 2 in the paper, where the error terms follow a standard logistic distribution. In this example, we estimate all coefficients using the standard logistic likelihood function.
 
 The three files — simulation_CASE2_DGP_1, simulation_CASE2_DGP_2, and simulation_CASE2_DGP_3 — correspond to the three error-term specifications described in the paper:
 
@@ -23,7 +23,7 @@ The three files — simulation_CASE2_DGP_1, simulation_CASE2_DGP_2, and simulati
 
 · simulation_CASE2_DGP_3 implements the case with strong autocorrelation, where the error terms follow an AR(1) process with coefficient 0.7.
 
-In the folder “Code_for_Example_3”, we include the data-generating processes corresponding to Example 3 in the paper, where the error terms follow a logistic (zero mean, unit variance) distribution. In this example, we estimate all coefficients using the standard normal likelihood function. This is the example we adopt the Quasi-MLE idea.
+In the folder “Code_for_Example_3”, we include the data-generating processes corresponding to Example 3 in the paper, where the error terms follow a standard logistic distribution. In this example, we estimate all coefficients using the standard normal likelihood function. This is the example we adopt the Quasi-MLE idea.
 
 The three files — simulation_CASE3_DGP_1, simulation_CASE3_DGP_2, and simulation_CASE3_DGP_3 — correspond to the three error-term specifications described in the paper:
 
